@@ -2,3 +2,6 @@ db.sqlite3
 node_modules/
 env
 .vscode/
+*.pyc
+/**pycache/**
+leadmanager/leadmanager/__pycache__/*
