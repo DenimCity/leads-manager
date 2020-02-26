@@ -28,3 +28,27 @@
     - ```pip3 freeze > requirements.txt```
     Change Directory into leadmanager
     - pip install -r requirements.txt
+
+
+### Post Man Examples
+
+ - GET http://localhost:8000/api/leads
+ - POST http://localhost:8000/api/leads/
+```
+    {
+	"name": "Sam Smith",
+	"email": "samsmith@email1.com",
+	"message": "please contact Sam"
+    }
+```
+- GET http://localhost:8000/api/leads/1
+- DELETE http://localhost:8000/api/leads/1/
+- PATHC http://localhost:8000/api/leads/1/
+```
+    {
+    "id": 1,
+    "name": "Sam Smith",
+    "email": "samsmith7@email.com",
+    "message": "please contact Sam"
+    }
+```
