@@ -52,3 +52,9 @@
     "message": "please contact Sam"
     }
 ```
+
+### Seed database
+
+- cd leadmanager
+ 
+- ``` python3 manage.py seed leads --number=20```
