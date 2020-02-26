@@ -20,3 +20,11 @@
 ## Migrating Files
 1. python3 manage.py makemigrations "nameof your project" 
     -  ```python3 manage.py makemigrations leads```
+
+## View App Deps/Creating requirements file
+    View packages
+    - ```pip3 freeze```
+        Create a dependencies list file
+    - ```pip3 freeze > requirements.txt```
+    Change Directory into leadmanager
+    - pip install -r requirements.txt
