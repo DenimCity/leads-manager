@@ -20,6 +20,8 @@
 ## Migrating Files
 1. python3 manage.py makemigrations "nameof your project" 
     -  ```python3 manage.py makemigrations leads```
+2. migrate model changes
+    - ```python3 manage.py migrate```
 
 ## View App Deps/Creating requirements file
     View packages
