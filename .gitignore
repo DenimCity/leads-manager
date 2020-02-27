@@ -27,5 +27,8 @@ leadmanager/leadmanager/__pycache__/*
 .env.production.local
 
 npm-debug.log*
+package-lock.json
+yarn.lock
 yarn-debug.log*
 yarn-error.log*
+db.sqlite3

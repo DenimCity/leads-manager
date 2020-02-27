@@ -12,10 +12,10 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const results = await axios.get('http://localhost:8000/api/leads')
+      const results = await axios.get('/api/leads')
       console.log("TCL: fetchData -> results", results)
     } catch (error) {
-    console.log("TCL: fetchData -> error", error)
+    console.log("TCL: fetchData -> error", error.message)
       
     }
   }
