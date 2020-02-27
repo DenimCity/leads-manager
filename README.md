@@ -14,23 +14,24 @@
 
 2. cd leadmanager
 3. create app ```python3 manage.py startapp "name-of-app"
-    - cd ../ 
+    - cd ../
     - ```echo "env/*" >> .gitignore```
 
 ## Migrating Files
-1. python3 manage.py makemigrations "nameof your project" 
-    -  ```python3 manage.py makemigrations leads```
+
+1. python3 manage.py makemigrations "nameof your project"
+    - ```python3 manage.py makemigrations leads```
 2. migrate model changes
     - ```python3 manage.py migrate```
 
 ## View App Deps/Creating requirements file
+
     View packages
     - ```pip3 freeze```
         Create a dependencies list file
     - ```pip3 freeze > requirements.txt```
     Change Directory into leadmanager
     - pip install -r requirements.txt
-
 
 ### Post Man Examples
 
@@ -46,6 +47,7 @@
 - GET http://localhost:8000/api/leads/1
 - DELETE http://localhost:8000/api/leads/1/
 - PATHC http://localhost:8000/api/leads/1/
+
 ```
     {
     "id": 1,
